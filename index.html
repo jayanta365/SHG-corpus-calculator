@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SHG CORPUS CALCULATOR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SHG CORPUS CALCULATOR</h1>
+        <div class="input-block">
+            <label for="revolvingFund">Revolving fund (in INR):</label>
+            <input type="number" id="revolvingFund" class="input-field" required>
+        </div>
+
+        <div class="input-block">
+            <label for="totalSavings">Total Savings of the SHG (in INR):</label>
+            <input type="number" id="totalSavings" class="input-field" required>
+        </div>
+
+        <div class="input-block">
+            <label for="internalLendingInterest">Interest earned from Internal lending (in INR):</label>
+            <input type="number" id="internalLendingInterest" class="input-field" required>
+        </div>
+
+        <div class="input-block">
+            <label for="otherIncome">Income from other sources (in INR):</label>
+            <input type="number" id="otherIncome" class="input-field" required>
+        </div>
+
+        <div class="input-block">
+            <label for="fundFromOtherSources">Fund from other sources (Kanaklata) (in INR):</label>
+            <input type="number" id="fundFromOtherSources" class="input-field" required>
+        </div>
+
+        <button onclick="calculateCorpus()">Calculate Corpus</button>
+
+        <div class="result">
+            <h2>Result:</h2>
+            <p>Total corpus of the SHG: <span id="totalCorpusResult">0</span> INR</p>
+            <p>Eligible loan amount: <span id="eligibleLoanAmount">0</span> INR</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
