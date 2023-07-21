@@ -43,7 +43,7 @@ label {
     border-radius: 5px;
     font-size: 16px;
     color: #333;
-    
+    overflow: hidden;
     transition: border-color 0.2s ease;
 }
 
