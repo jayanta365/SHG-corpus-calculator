@@ -129,6 +129,9 @@ button:hover {
     h1 {
         font-size: 24px;
     }
+    .container {
+    max-width: 480px;
+    }
 
     .input-field {
         font-size: 14px;
