@@ -9,7 +9,7 @@ body {
 
 .container {
     max-width: 500px;
-    margin: 20px auto;
+    margin: 20px;
     padding: 30px;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -37,7 +37,7 @@ label {
 }
 
 .input-field {
-    width: 476px;
+    width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -135,7 +135,7 @@ button:hover {
 
     .input-field {
         font-size: 14px;
-        width: 456px;
+        width: 100%;
     }
 
     button {
