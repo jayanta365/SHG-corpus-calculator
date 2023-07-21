@@ -37,13 +37,12 @@ label {
 }
 
 .input-field {
-    width: 500px;
+    width: 480px;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
     color: #333;
-    overflow: hidden;
     transition: border-color 0.2s ease;
 }
 
