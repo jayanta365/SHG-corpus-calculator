@@ -130,7 +130,7 @@ button:hover {
         font-size: 24px;
     }
    .container {
-     max-width: 100% ;
+     max-width: 480px ;
    }
 
     .input-field {
