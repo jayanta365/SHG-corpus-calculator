@@ -37,7 +37,7 @@ label {
 }
 
 .input-field {
-    width: 480px;
+    width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 5px;
